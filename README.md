@@ -2,7 +2,7 @@
 
 This is a simple converter to allow use of a PS/2 style keyboard with a Wyse 60 serial terminal.
 
-## Connections on an Arudino Pro Mini:
+## Connections on an Arduino Pro Mini:
 
     Pro-Mini Pin	Connection
     ------------    ----------
@@ -17,7 +17,7 @@ This is a simple converter to allow use of a PS/2 style keyboard with a Wyse 60 
 
 ## Operation
 
-The convertor uses the SPI interface in slave mode to shift keyboard
+The converter uses the SPI interface in slave mode to shift keyboard
 data out.  The Wyse protocol is a simple bit array that is shifted into
 the terminal while the terminal sends the Clock signal.
 
